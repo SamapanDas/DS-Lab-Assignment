@@ -1,0 +1,91 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\title{DATA STRUCTURE = Linked List}
+\author{soni200032 }
+\date{June 2019}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+* A linked list is a linear data structure, in which the element are not stored at contiguous memory location.\\
+** It consists of group of nodes in a sequence.\\
+In simple words, a linked list consists of nodes where each node contains a data field and a reference (link) to the next node in the list.\\
+** Linked lists are used to create Trees and Graph.\\
+** The element in a linked list are linked using pointer As shown in Figure.  
+\includegraphics[width=12cm,height=5cm]{PICTURE1.png}
+\section{Advantages of Linked Lists}
+* They are dynamic in nature which allocates the memory when required.\\
+** Insertion and deletion operation can be easily implemented.\\
+** Linked List reduces the access time.
+\section{Disadvantages of Linked Lists}
+* The memory is wasted as pointer require extra memory for storage.\\
+** No element can be accessed randomly; it has to access each node sequentially.\\
+** Reverse Traversing is difficult in linked list.
+\section{Applications of Linked Lists}
+* Linked lists are used to implement stacks,queues,graphs,etc.\\
+** Linked lists let you insert elements at the beginning and end of the list.\\
+** In Linked Lists we don't need to know the size in advance.
+\section{The Operations on the Linked Lists}
+* Search: This operation involves the searching of an element in the linked list.\\
+** Insertion: To add new node to data structure.\\
+** Deletion: To delete a node from data structure.\\
+** Merge: To merge two structures or more to constituting one structure.
+\section{Types Of Linked Lists}
+There are four different implementations of linked list available, they are as follows.\\
+6.1. Singly Linked List.\\
+6.2. Doubly Linked List.\\
+6.3. Circular Singly Linked List.\\
+6.4. Circular Doubly Linked List.
+\subsection{ Singly Linked List}
+* Singly linked list contain nodes which have a data part as well as an address part i.e, next: which points to the next node in sequence of nodes.\\
+** The operation we can perform on singly linked list are insertion, and deletion, As shown in Figure.\\
+\includegraphics[width=13cm,height=5cm]{PICTURE2.png}
+\subsection{ Doubly Linked List}
+* In a doubly linked list, each node contains a data part
+and two addresses,one for the previous node and other one for the next node, As shown in Figure.\\
+\includegraphics[width=15cm,height=5cm]{PICTURE3.png}
+\subsection{ Circular Singly Linked List}
+* In circular singly linked list the last node of the list holds the address of the first node hence forming a circular chain, As shown in Figure.\\
+\includegraphics[width=13cm,height=5cm]{PICTURE4.png}
+\subsection{ Circular Doubly Linked List}
+* In circular doubly linked list the forward node points to the first node and backward pointer of the first node points to the last node, As shown in Figure.
+\includegraphics[width=15cm,height=5cm]{PICTURE5.png}
+\section{Euation}
+
+A genaral mathical equation
+
+\begin{align} 
+	\begin{split}
+	(x+y)^3 	&= (x+y)^2(x+y)\\
+					&=(x^2+2xy+y^2)(x+y)\\
+					&=(x^3+2x^2y+xy^2) + (x^2y+2xy^2+y^3)\\
+					&=x^3+3x^2y+3xy^2+y^3
+	\end{split}					
+\end{align}
+
+
+\section{Table}
+
+Create a simple table
+
+
+\begin{center}
+\begin{tabular}{ c c c }
+ cell1 & cell2 & cell3 \\ 
+ cell4 & cell5 & cell6 \\  
+ cell7 & cell8 & cell9    
+\end{tabular}
+\end{center}
+
+
+
+
+
+
+\section{Reference}
+\url{https://www.programiz.com/dsa/linked-list}
+
+\end{document}
